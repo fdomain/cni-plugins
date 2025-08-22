@@ -17,8 +17,6 @@ type VRFNetConf struct {
 
 	// VRFName is the name of the vrf to add the interface to.
 	VRFName string `json:"vrfname"`
-	// Table is the optional name of the routing table set for the vrf
-	Table uint32 `json:"table"`
 }
 
 func main() {
